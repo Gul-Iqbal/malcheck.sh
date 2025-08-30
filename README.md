@@ -23,6 +23,8 @@ install tools (one time)
 
 Analyze a sample (outputs to Desktop)
 ./static_malware_suite.sh analyze [sample.exe]
+
+
 with yara
 ~/Desktop/static_malware_suite.sh analyze /home/kali/Desktop/mal.exe /home/kali/Desktop /home/kali/yara-rules retdec:on
 
